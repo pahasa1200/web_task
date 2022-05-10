@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Task</title>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <a><span>75th Anniversary Year</span></a>
+        <a><span>Contact</span></a>
+        <a><span>Renew</span></a>
+        <a><span>Join</span></a>
+        <a><span>Subscribe for Email Updates</span></a>
+        <a class="nav__icon-button"><img class="nav__icon-button__icon" src="./img/facebook.svg" alt="Facebook"/></a>
+        <a class="nav__icon-button"><img class="nav__icon-button__icon" src="./img/twitter.svg" alt="Twitter"/></a>
+        <a class="nav__icon-button"><img class="nav__icon-button__icon" src="./img/linkedin.svg" alt="Linkedin"/></a>
+        <a class="nav__icon-button">
+            <img class="nav__icon-button__icon nav__icon-button__icon__search-icon" src="./img/search.svg" alt="Search"/>
+        </a>
+    </nav>
+    <header>
+        <img src="https://acad.org/wp-content/uploads/2017/08/ACAD_logo_200px.png" alt="ACAD">
+        <ul class="header__list">
+            <li><a>Home</a></li>
+            <li>
+                <div class="form-group" data-block="1">
+                    <div class="select" id="about-select">
+                        <button type="button" class="select__toggle" id="about_id-btn" name="about_id-btn" value=""
+                                data-select="toggle" data-index="-1">
+                            About
+                        </button>
+                        <div class="select__dropdown">
+                            <ul class="select__options">
+                                <li class="select__option" data-select="option" data-index="0">75th Anniversary Year</li>
+                                <li class="select__option" data-select="option" data-index="1">Who We Are</li>
+                                <li class="select__option" data-select="option" data-index="2">Mission, Vision, Values</li>
+                                <li class="select__option" data-select="option" data-index="3">Board & Staff</li>
+                                <li class="select__option" data-select="option" data-index="3">History</li>
+                                <li class="select__option" data-select="option" data-index="3">Annual Award</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input type="hidden" name="about_id" id="about_id">
+                </div>
+            </li>
+            <li>
+                <div class="form-group" data-block="1">
+                    <div class="select" id="membership-select">
+                        <button type="button" class="select__toggle" id="membership_id-btn" name="membership_id-btn"
+                                value=""
+                                data-select="toggle" data-index="-1">
+                            Membership
+                        </button>
+                        <div class="select__dropdown">
+                            <ul class="select__options">
+                                <li class="select__option" data-select="option" data-index="0">Member Benefits</li>
+                                <li class="select__option" data-select="option" data-index="1">Join ACAD</li>
+                                <li class="select__option" data-select="option" data-index="2">Get Involved</li>
+                                <li class="select__option" data-select="option" data-index="3">Peer Conferencing Program</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input type="hidden" name="membership_id" id="membership_id">
+                </div>
+            </li>
+            <li>
+                <div class="form-group" data-block="3">
+                    <div class="select" id="meetings-select">
+                        <button type="button" class="select__toggle" id="meetings_id-btn" name="meetings_id-btn"
+                                value=""
+                                data-select="toggle" data-index="-1">
+                            Meetings & Events
+                        </button>
+                        <div class="select__dropdown">
+                            <ul class="select__options">
+                                <li class="select__option" data-select="option" data-index="0">Annual Meeting</li>
+                                <li class="select__option" data-select="option" data-index="1">Conferences</li>
+                                <li class="select__option" data-select="option" data-index="2">Deans' Institute</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input type="hidden" name="meetings_id" id="meetings_id">
+                </div>
+            </li>
+            <li>
+                <div class="form-group" data-block="4">
+                    <div class="select" id="resources-select">
+                        <button type="button" class="select__toggle" id="resources_id-btn" name="resources_id-btn"
+                                value=""
+                                data-select="toggle" data-index="-1">
+                            Resources
+                        </button>
+                        <div class="select__dropdown">
+                            <ul class="select__options">
+                                <li class="select__option" data-select="option" data-index="0">ACAD Reading List</li>
+                                <li class="select__option" data-select="option" data-index="1">Explore Resources</li>
+                                <li class="select__option" data-select="option" data-index="2">The Resource Handbook for Academic Deans</li>
+                                <li class="select__option" data-select="option" data-index="3">The ACAD Leader</li>
+                                <li class="select__option" data-select="option" data-index="3">Partners</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input type="hidden" name="resources_id" id="resources_id">
+                </div>
+            </li>
+            <li class="header__career">
+                <a>Career Center</a>
+                <img src="img/external-link.svg" alt="External link"/>
+            </li>
+        </ul>
+    </header>
+</div>
+</body>
+<script src="./app.js"></script>
+</html>
