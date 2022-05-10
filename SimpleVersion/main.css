@@ -120,7 +120,7 @@ header {
 .select_show .select__dropdown {
     transform: translateY(20%);
     opacity: 0;
-    animation: ascent 1s forwards;
+    animation: ascent 0.5s forwards;
 }
 
 @keyframes ascent {
@@ -136,7 +136,7 @@ header {
 
 .select_hide .select__dropdown {
     display: block;
-    animation: diving 1s forwards;
+    animation: diving 0.5s forwards;
     transform: translateY(50%);
     opacity: 1;
 }
